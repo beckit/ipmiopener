@@ -7,9 +7,15 @@ tested with firmware version R3.15
 
 Original Version 2021/01/20
 
-Note:  If you're having troubles downloading the .jnlp file,
-       try the seamonkey browser
+Usage:
+        1) In a browser, login to the ipmi
+        2) Navigate to the ipmi console controls and download the jviewer.jnlp
+        3) Run this script while in the directory where the jviewer.jnlp is at
+          (or specify the .jnlp by path)
+
+        If you're having troubles downloading the .jnlp file, try the seamonkey browser
 """
+
 import argparse
 import re
 import subprocess
